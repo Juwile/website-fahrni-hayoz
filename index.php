@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Bedachungen und Spenglerei | Fahrni Haymoz GmbH</title>
+		<title>Bedachungen | Fahrni Haymoz GmbH</title>
 		<meta name="description" content="Zimmerei seit 20 Jahren im Sensebezirk">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
