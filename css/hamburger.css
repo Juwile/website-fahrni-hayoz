@@ -1,0 +1,88 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	overflow:scroll;
+}
+
+header{
+	background: orange;
+	width: 100%;
+	padding: 40px 0px;
+	color: white;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+nav ul{
+	background-color: green;
+	overflow:hidden;
+	color:white;
+	padding:0px;
+	text-align: center;
+	margin:0;
+	transition: max-height 0.4s;
+}
+
+nav ul li{
+	display: inline-block;
+	padding:20px;
+}
+
+nav ul li:hover{
+	background-color: brown;
+	color:white;
+}
+
+section{
+	text-align:center;
+	line-height: 2em;
+	font-size:0.9em;
+	padding:20px 0px;
+	max-width:75em;
+	margin:0 auto;
+	background-color: pink;
+
+}
+
+.handle{
+	width:100%;
+	background-color: purple;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor:pointer;
+	color:white;
+	display: none;
+
+}
+
+
+
+/*-------------------------------mobile--------------------------------*/
+
+@media only screen and (max-width: 580px){
+	/*versteckt die Listenelemente um sie animieren zu können */
+	nav ul{
+		max-height: 0;
+	}
+
+	nav ul li{
+		box-sizing: border-box;
+		width:100%;
+		padding:15px;
+		text-align: center;
+	}
+
+	.handle{
+		display: block;
+	}
+
+	/* Klasse anfügen um zu zeigen */
+	.showing{
+		max-height: 20em;
+	}

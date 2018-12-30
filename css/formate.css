@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Open+Sans|Josefin+Slab');
+
+body{
+	background: white url(../img/key.jpg);
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+div{
+	background-color:transparent;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:link, nav a:visited{
+	color:black;
+}
+
+a:hover, nav a:active{
+	color:black;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.button{
+	color:black;
+	padding:10px 0px 0px 0px;
+}
+
+.button:before{
+	content:"\f178";
+	font-family: FontAwesome;
+	text-decoration: inherit;
+	font-size: 20px;
+	padding:8px;
+	color:red;
+} 
+
+#iebox{
+	background-color: white;
+	font-family: courier;
+	display:none;
+}
+
+/**************************************************HEADER*********************************************************/
+
+
+header{
+	background-color:transparent;
+	clear:both;
+}
+
+nav{
+	width:985px;
+	height:200px;
+	padding: 60px 0px 20px 50px;
+	color:white;
+	float:left;
+	background-image: url(../img/linie.png);
+	background-repeat: no-repeat; 
+	background-position: 0px 60px;
+	font-size: 25px;
+	font-family:'Josefin Sans';
+}
+
+nav ul li{
+	display: inline-block;
+	padding-right: 5%;
+}
+
+li{
+
+}
+
+nav a{
+	text-decoration: none;
+	color:white;
+}
+
+nav a:link, nav a:visited{
+	color:white;
+}
+
+nav a:hover, nav a:active{
+	color:white;
+	font-weight: bold;
+	transition: background-color 0.5s ease;
+}
+
+/*.navdesign{
+	max-width: 100%;
+	margin:auto;
+	margin-top: 0px;
+}*/
+
+
+#logo{
+	width: 233px;
+	height:231px;
+	float:left;
+	margin:0px 0px 0px 10%;
+	background-image: url(../img/linie.png);
+	background-repeat: no-repeat; 
+	background-position: 20px 60px;
+	margin-top: 0px;
+}
+
+#logo-small{
+	display: none;
+}
+
+#adressbox{
+	text-align: right;
+	padding-right:70px;
+	padding-top:50px;
+}
+
+#mail{
+	color:white;
+	display:inline;
+	text-align: right;
+}
+
+#mail a{
+	text-decoration: none;
+	color:white;
+}
+
+#mail a:link, nav a:visited{
+	color:white;
+}
+
+#mail a:hover, nav a:active{
+	color:white;
+}
+
+#phone{
+	color:white;
+	display:inline;
+}
+
+#mail::before{
+	content:"\f0e0";
+	font-family: FontAwesome;
+	text-decoration: inherit;
+	font-size: 20px;
+	padding:8px;
+	color:white;
+	/*border:red 2px solid;
+	border-radius: 60px;*/
+} 
+
+#phone::before{
+	content:"\f095";
+	font-family: FontAwesome;
+	text-decoration: inherit;
+	font-size: 20px;
+	padding:8px;
+	color:white;
+} 
+
+.dot{
+	display: inline-block;
+	height:100px;
+	padding-top: 30px;
+}
+
+.dot:hover{
+	display: inline-block;
+	height:100px;
+	padding-top: 30px;
+	background-image:url(../img/dot.png);
+	background-repeat: no-repeat; 
+	background-size: 10px;
+	background-position: 50% 0%;
+	transition:ease all 0.5s;
+	
+}
+
+/***************************************************Contentbereich******************************************************/
+
+section{
+	position: center;
+	clear:both;
+	padding: 0 0 100px 0;
+}
+
+section img{
+	max-width: 100%;
+}
+
+article{
+	padding: 24px 12px 0px 12px;
+	position: center;
+	clear:both;
+}
+
+p{
+	padding: 0px 0px 10px 0px;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Josefin Sans', sans-serif; 
+}
+
+h2{
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+h3{
+	font-size:24px;
+	font-weight: 500;
+	padding: 25px 0px 10px 0px;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight: 500;
+	padding: 5px 0px 0px 0px;
+}
+
+.wrapper{
+	max-width:980px;
+	margin:auto;
+	background-color:transparent;
+	overflow: hidden;
+}
+
+.mainteaser{
+	float:left;
+	width:30%;
+	padding:10px 10px 10px 10px;
+	text-align:center;
+	min-height: 300px;
+}
+
+.mainteaser1{
+	margin-right: 5%;
+}
+
+.mainteaser2{
+	margin-right: 5%;
+}
+
+.button{
+	color:black;
+	padding:10px 0px 0px 0px;
+	text-align: center;
+}
+
+.button:before{
+	content:"\f178";
+	font-family: FontAwesome;
+	text-decoration: inherit;
+	font-size: 20px;
+	padding:8px;
+	color:red;
+} 
+
+.button:hover{
+	transform: scale(1.03);
+	transition: all ease 0.3s;
+	}
+
+.teaserparagraph{
+	min-height: 150px;
+}
+
+.pic{
+	-webkit-filter: drop-shadow(8px 8px 10px grey);
+
+}
+
+.lead{
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.handle{
+	display: none;
+}
+
+/*******************************************************Footer******************************************************/
+
+
+.footerbox{
+	border-top:none; 
+	max-width: 100%;
+	background-color: transparent;
+	overflow: hidden;
+	margin: 30px 0px 0px 0px;
+}
+
+.footerdesign{
+	max-width: 100%;
+	color:white;
+	background-color: #545D6B; 
+	overflow:hidden;
+	/*padding:20px 0px 20px 0px;*/
+
+}
+
+
+.footer{
+	float:left;
+	width:20%;
+	padding: 0px 10px 0px 10px;
+	border-left: 2px solid white;
+	height: 200px;
+	margin-bottom: 50px;
+
+}
+
+#karte{
+	margin-right:6.666666%; 
+	border-left:none;
+}
+
+.footer1{
+	margin-right: 6.666666%;
+}
+
+.footer2{
+	margin-right: 6.666666%;
+}
+
+
+footer ul{
+	margin-left: 0px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+footer ul li:link, footer ul li:visited{
+	color:white;
+}
+
+footer ul li:hover, footer ul li:active{
+	margin-left: 0px;
+	font-weight: bold;
+	transition: background-color 0.5s ease;
+}
+
+footer a{
+	color:white;
+}
+
+footer a:link, nav a:visited{
+	color:white;
+}
+
+footer a:hover, footer a:active{
+	color:white;
+	font-weight: bold;
+	transition: background-color 0.5s ease;
+}
+
+
+.unten{
+	margin:auto;
+	max-width: 1420px;
+	/*border:1px solid white; 
+	padding: 100px 10px 10px 10px*/
+}
+
+footer h3{
+	font-size:24px;
+	font-weight: 500;
+	padding: 0px 0px 10px 0px;
+}
+
+
+/*------------------------------------Zimmerei---------------------------------------*/
+
+#einsbox{
+	background-color: white;
+	padding: 230px 0px 0px 0px;
+
+}
+
+#zweibox{
+	background-color: white;
+	display: none;
+	padding: 230px 0px 0px 0px;
+}
+
+#dreibox{
+	background-color: white;
+	display: none;
+	padding: 230px 0px 0px 0px;
+}
+
+.box{
+	float:left;
+	width:33.33333%;
+	padding:0px 0px 0px 0px;
+}
+
+.boxlinks{
+	text-align:left;
+}
+
+.boxmitte{
+	text-align:center;
+}
+
+.boxrechts{
+	text-align:right;
+}
+
+article ul li{
+	padding-left: 10px;
+	margin-left: 20px;
+	line-height: 1.5;
+}
+
+/*------------------------------------Innenausbau---------------------------------------*/
+
+.boxauflistung{
+	float:left;
+	width:30%;
+	padding:10px 10px 10px 10px;
+}
+
+.auflistung{
+	float:left;
+	width:70%;
+	padding:0px 10px 10px 10px;
+	min-height: 300px;
+}
+
+table{
+	padding-bottom: 20px;
+}
+
+td{
+	vertical-align: top;
+	min-width:40px;
+	padding:0 0 0 30px;
+}
+
+th{
+	vertical-align: top;
+	min-width:40px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.rund{
+	border-radius: 50%;
+}
+
+/*------------------------------------Kontakt---------------------------------------*/
+
+form{
+	margin-bottom: 30px;
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:24px;
+	font-weight: 500;
+	padding: 20px 0px 10px 0px;
+
+}
+label{
+	display: block;
+}
+
+input{
+	display: block;
+	margin:5px 0 10px 0;
+}
+
+select{
+	margin:10px 0 20px 0;
+}
+
+textarea{
+	width:100%;
+}
+
+hr{
+	margin:20px 0px 10px 0px;
+}
+
+.auswahl{
+	display: inline;
+	margin:5px 0 10px 0;
+}
+
+/*---------------------------------------------------------RWD------------------------------------------------------------------*/
+
+
+/*------------------------------------Screen max 1420px--------------------------------------------*/
+
+@media only screen and (max-width: 1420px){
+
+#logo{
+	width: 233px;
+	height:231px;
+	float:left;
+	margin:0px 0px 0px 10px;
+	background-image: url(../img/linie.png);
+	background-repeat: no-repeat; 
+	margin-top: 0px;
+}
+
+nav{
+	width:100%;
+	height:200px;
+	padding: 50px 0px 0px 150px;
+	color:white;
+	float:none;
+	background-image: url(../img/linie.png);
+	background-repeat: no-repeat; 
+	background-position: 40px 60px;
+	font-size: 20px;
+	font-family:'Josefin Sans';
+}
+
+nav ul li{
+	display: inline-block;
+	min-width: 50px;
+	padding-left: 2%;
+	padding-right: 2%;
+	height: 80px;
+}
+
+nav ul{
+	float: none;
+	width: 100%;
+	height: 80px;
+}
+
+nav a{
+	text-decoration: none;
+	color:white;
+}
+
+nav a:link, nav a:visited{
+	color:white;
+}
+
+nav a:hover, nav a:active{
+	color:white;
+	font-weight: bold;
+	transition: background-color 0.5s ease;
+}
+
+.dot{
+	display: inline-block;
+	height:100px;
+	padding-top: 30px;
+}
+
+.dot:hover{
+	display: inline-block;
+	height:100px;
+	padding-top: 30px;
+	background-image:none;
+	background-repeat: no-repeat; 
+	background-size: 10px;
+	background-position: 50% 0%;
+	transition:ease all 0.5s;
+}
+
+}
+
+/*----------------------------Header screen max 980px-----------------------------*/
+
+@media only screen and (max-width: 980px){
+
+nav{
+	max-width: 250px;
+	min-height:200px;
+	padding:0px 0px;
+	color:white;
+	background-image: none;
+	font-size: 20px;
+	font-family:'Josefin Sans';
+	display:inline-block;
+}
+
+nav ul li{
+	display: block;
+	padding-top: 0px;
+	max-width:250px;
+	height: 30px;
+	padding-left: 30px;
+}
+
+
+nav ul{
+	display: none;
+	padding-top: 42px;
+	margin: 0px 0px 0px 135px;
+}
+
+.naviheader{
+	text-align: left;
+}
+
+
+#logo{
+	display: none;
+
+}
+
+#logo-small{
+	float:left;
+	display: block;
+	padding:0px;
+	position: absolute;
+	top:120px;
+	margin: 0px 0px 0px 20px;
+
+}
+
+.dot{
+	display: inline-block;
+	height:0px;
+	padding-top: 0px;
+}
+
+.dot:hover{
+	display: inline-block;
+	height:0px;
+	padding-top: 0px;
+	background-image:none;
+	background-repeat: no-repeat; 
+	background-size: 0px;
+	transition:none;
+}
+
+
+#adressbox{
+	display: none;
+}
+
+.handle{
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	padding: 40px 0px 0px 40px;
+	font-size:24px;
+	box-sizing: border-box;
+	cursor:pointer;
+	color:white;
+	display:block;
+	position: absolute;
+	
+}
+
+.handle:before{
+	content:"\f0c9";
+	font-family: FontAwesome;
+	font-size: 20px;
+	padding-right: 5px;
+	text-decoration: inherit;
+
+}
+
+.showing{
+		display: block;
+}
+
+.button{
+	width:100%;
+}
+
+
+
+/*-------------------------------------------------Content screen max 980px--------------------------------------------------*/
+
+h2{
+	margin-top: 90px;
+}
+
+p{
+	text-align: center;
+}
+
+article{
+	padding: 0px 20px 0px 20px;
+	width: 100%;
+}
+
+article ul li{
+	padding-left: 5%;
+	margin-left: 30%;
+	line-height: 1.5;
+
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	vertical-align: top;
+	width: 50%;
+	padding:0 0 0 5px;
+}
+
+th{
+	vertical-align: top;
+	width: 50%;
+	text-align: right;
+	padding:0 5px 10px 0px;
+
+}
+
+.mainteaser{
+	float:left;
+	display: block;
+	width:100%;
+	padding:10px 0px;
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.mainteaser1{
+	margin-right: 5%;
+}
+
+.mainteaser2{
+	margin-right: 5%;
+}
+
+.historyteaser{
+	text-align:center;
+	
+}
+
+.teaserparagraph{
+	min-height: 50px;
+}
+
+
+/*------------------------------------Content screen max 980px - Innenausbau---------------------------------------*/
+
+.boxauflistung{
+	float:left;
+	width:100%;
+	padding:10px 10px 0px 10px;
+	text-align: center;
+}
+
+.mainteasermobile{
+	float:left;
+	width:100%;
+	padding:10px 10px 50px 10px;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+article a{
+	width: 100%;
+	float:left;
+	display:block;
+	text-align: center;
+}
+
+.teaserausrichtung{
+		width: 100%;
+}
+
+.auflistung{
+	float:left;
+	width:100%;
+	padding:0px 10px 10px 10px;
+	min-height: 250px;
+}
+
+.listelevel2{
+	margin-left: 45px;
+}
+
+.fancybreite{
+	width: auto;
+}
+
+/*------------------------------------Content screen max 980px - Zimmerei---------------------------------------*/
+
+.box{
+	float:left;
+	width:100%;
+	padding:0px 0px 0px 0px;
+}
+
+#einsbox{
+	background-color: white;
+	padding: 0px 0px 0px 0px;
+}
+
+#zweibox{
+	background-color: white;
+	display: inline;
+	padding: 0px 0px 0px 0px;
+}
+
+#dreibox{
+	background-color: white;
+	display: inline;
+	padding: 0px 0px 0px 0px;
+}
+
+.boxlinks{
+	text-align:center;
+}
+
+.boxmitte{
+	text-align:center;
+	
+}
+
+.boxrechts{
+	text-align:center;
+	
+}
+
+/*------------------------------------Content screen max 980px - Kontakt---------------------------------------*/
+
+fieldset{
+	padding: 0 20px 0 20px;
+}
+
+fieldset p{
+	text-align: left;
+}
+
+
+
+/*------------------------Footer screen max 980px----------------------------------*/
+
+.footerbox{
+	border:none; 
+	max-width: 100%;
+	background-color: transparent;
+	overflow: hidden;
+	margin: 20px 0px 0px 0px;
+
+}
+
+.footerdesign{
+	max-width: 100%;
+	color:white;
+	text-align: left;
+	background-color: #545D6B; 
+	overflow:hidden;
+	/*padding:20px 0px 20px 0px;*/
+
+}
+
+.footer{
+	float:left;
+	width:100%;
+	display: block;
+	padding:10px 10px 20px 10px;
+	margin-bottom: 0px;
+	height: auto;
+	border-left: none;
+}
+
+#karte{
+	max-width: 100%;
+}
+
+.footer1{
+}
+
+.footer2{
+	display: none;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer a{
+	float:left;
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
+.unten{
+	margin:auto;
+	max-width: 1420px;
+	/*border:1px solid white; 
+	padding: 100px 10px 10px 10px*/
+}
+
+address{
+	text-align: center;
+}
+
+}
